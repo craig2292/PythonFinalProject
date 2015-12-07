@@ -2,7 +2,7 @@ import arcpy
 from arcpy import env
 from arcpy.sa import *
 env.workspace = "F:\Fall2015\Python\PythonProject\Data"
-
+env.overwriteOutput = True
 
 
 #IsoCluster Tool
